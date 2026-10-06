@@ -1,0 +1,45 @@
+#wrapper {
+  width: 100%;
+  .bookmarks-container {
+    min-width: 20rem;
+    max-width: 60rem;
+    background-color: $blue;
+    padding-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+
+    h2 {
+      font-family: $accent-font;
+      font-size: 5rem;
+      color: $yellow;
+    }
+
+    .search-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      label {
+        font-size: 28px;
+        font-family: $tagline-font;
+      }
+      input {
+        width: 20rem;
+        font-size: 18px;
+        padding: 5px;
+        font-family: $primary-font;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+
+    .bookmark-list {
+      .bookmark-card {
+      }
+    }
+  }
+}

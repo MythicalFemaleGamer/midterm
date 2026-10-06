@@ -1,0 +1,33 @@
+//colors
+$yellow: #fed90f;
+$blue: #107dc0;
+$l-blue: #70d1fe;
+$red: #f65132;
+$brown: #9c5b01;
+
+//fonts
+
+$accent-font: "Luckiest Guy", cursive;
+$tagline-font: "Gloria Hallelujah", cursive;
+$primary-font: "Quicksand", sans-serif;
+
+//fonts classes
+
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-regular {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
