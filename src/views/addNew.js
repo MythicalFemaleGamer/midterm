@@ -23,7 +23,7 @@ export default function addNew() {
           <option value="ttrpg resources">TTRPG Resources</option>
         </select>
 
-        <button type="submit">Add Bookmark</button>
+        <button type="submit" class="submit-btn">Add Bookmark</button>
       </form>
     </div>
   `;

@@ -1,45 +1,59 @@
-#wrapper {
-  width: 100%;
-  .bookmarks-container {
-    min-width: 20rem;
-    max-width: 60rem;
-    background-color: $blue;
-    padding-bottom: 20px;
+.form-container {
+  min-width: 20rem;
+  max-width: 60rem;
+  min-height: 40rem;
+  background-color: $blue;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
 
+  h2 {
+    font-family: $accent-font;
+    font-size: 5rem;
+    color: $yellow;
+  }
+  #add-bookmark-form {
+    width: 60%;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin: 10px auto;
 
-    h2 {
-      font-family: $accent-font;
-      font-size: 5rem;
-      color: $yellow;
+    input {
+      margin-bottom: 5pt;
+      width: 20rem;
+      font-size: 18px;
+      padding: 5px;
+      font-family: $primary-font;
+      border: none;
+      border-radius: 10px;
     }
 
-    .search-section {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      label {
-        font-size: 28px;
-        font-family: $tagline-font;
-      }
-      input {
-        width: 20rem;
-        font-size: 18px;
-        padding: 5px;
-        font-family: $primary-font;
-        border: none;
-        border-radius: 10px;
-      }
+    label {
+      font-size: 28px;
+      font-family: $tagline-font;
     }
-
-    .bookmark-list {
-      .bookmark-card {
-      }
+    #bookmark-title {
+    }
+    #bookmark-url {
+    }
+    #bookmark-category {
+      width: 20rem;
+      font-size: 18px;
+      padding: 5px;
+      font-family: $primary-font;
+      border: none;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .submit-btn {
+      width: 10rem;
+      font-size: 18px;
+      padding: 5px;
+      font-family: $primary-font;
+      border: none;
+      border-radius: 10px;
+      background-color: $l-blue;
     }
   }
 }

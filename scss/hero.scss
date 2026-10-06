@@ -1,0 +1,14 @@
+.hero {
+  min-width: 20rem;
+  max-width: 60rem;
+  height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $accent-font;
+  font-size: 6em;
+  background-color: $yellow;
+  color: $blue;
+}

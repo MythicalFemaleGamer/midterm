@@ -1,0 +1,90 @@
+#wrapper {
+  width: 100%;
+  .bookmarks-container {
+    min-width: 20rem;
+    max-width: 60rem;
+    min-height: 40rem;
+    background-color: $blue;
+    padding-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+    h2 {
+      font-family: $accent-font;
+      font-size: 5rem;
+      color: $yellow;
+    }
+
+    .search-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      label {
+        font-size: 28px;
+        font-family: $tagline-font;
+      }
+      input {
+        width: 20rem;
+        font-size: 18px;
+        padding: 5px;
+        font-family: $primary-font;
+        border: none;
+        border-radius: 10px;
+      }
+    }
+
+    .bookmark-list {
+      width: 80%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      .bookmark-card {
+        margin-bottom: 10px;
+
+        .bookmark-info {
+          font-family: $primary-font;
+
+          .bookmark-title {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+          }
+
+          .bookmark-category {
+            padding-left: 5px;
+            color: black;
+            font-size: 16px;
+          }
+        }
+
+        .bookmark-actions {
+          .edit-btn,
+          .delete-btn {
+            background-color: $yellow;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+          }
+          .edit-btn {
+            color: $brown;
+          }
+          .delete-btn {
+            color: $red;
+            margin-left: 35px;
+          }
+        }
+      }
+    }
+  }
+}

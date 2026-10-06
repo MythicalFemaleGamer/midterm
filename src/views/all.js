@@ -49,7 +49,7 @@ export default function all() {
                     <a href="${item.url}"  class="bookmark-title">
                       ${item.title}
                     </a>
-                    <span class="bookmark-category">${item.category}</span>
+                    <span class="bookmark-category"> Category: ${item.category}</span>
                   </div>
                   <div class="bookmark-actions">
                     <button class="edit-btn" data-id="${item.id}">Edit</button>

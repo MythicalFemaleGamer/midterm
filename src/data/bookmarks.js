@@ -17,7 +17,7 @@ export const defaultBookmarks = [
         id:17123456789013,
         title:"Donjon",
         url:"https://donjon.bin.sh/",
-        category:"ttrgph resources",
+        category:"ttrpg resources",
     },
 
 
